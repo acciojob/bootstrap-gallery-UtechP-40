@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.card {
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .modal-content {
+            background-color: transparent;
+            border: none;
+        }
+        .slick-prev:before, .slick-next:before {
+            color: white;
+        }
+        .slick-prev {
+            left: 10px;
+            z-index: 1;
+        }
+        .slick-next {
+            right: 10px;
+            z-index: 1;
+        }
